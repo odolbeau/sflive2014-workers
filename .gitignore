@@ -1,0 +1,10 @@
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/app/bootstrap.php.cache
+/app/cache/
+/app/config/parameters.yml
+/app/logs/
+/bin/
+/composer.lock
+/vendor/
+/web/bundles/
