@@ -13,6 +13,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+            new SensioLabs\Bundle\Sflive2014Bundle\SensioLabsSflive2014Bundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

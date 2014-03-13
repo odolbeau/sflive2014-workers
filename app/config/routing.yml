@@ -1,0 +1,5 @@
+sensio_labs_sflive2014:
+    resource: "@SensioLabsSflive2014Bundle/Controller/"
+    type:     annotation
+    prefix:   /
+

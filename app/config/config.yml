@@ -27,6 +27,9 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    form:
+        resources:
+            - form_table_layout.html.twig
 
 # Swiftmailer Configuration
 swiftmailer:
@@ -34,4 +37,6 @@ swiftmailer:
     host:      "%mailer_host%"
     username:  "%mailer_user%"
     password:  "%mailer_password%"
-    spool:     { type: memory }
+    spool:
+        type: service
+        id: sflive.swiftmailer.amqp_spool
